@@ -76,6 +76,13 @@ body{
             margin-left: 0;
             width: 100%;
         }
+        .row{
+            div{
+                .info{
+                    height: fit-content;
+                }
+            }
+        }
     }
 }
 @media screen and (max-width: 576px){
@@ -84,8 +91,16 @@ body{
             height: 200px;
         }
         .row{
-            h2, h3, p{
-                display: none;
+            div{
+                margin-top: 5px;               
+                .info{
+                    .description{
+                        display: none;
+                    }
+                }
+                .more-btn{
+                    display: none;
+                }  
             }
         }
     }

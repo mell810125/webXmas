@@ -73,12 +73,21 @@ body {
     margin-left: 0;
     width: 100%;
   }
+  .container .row div .info {
+    height: fit-content;
+  }
 }
 @media screen and (max-width: 576px) {
   .container .video {
     height: 200px;
   }
-  .container .row h2, .container .row h3, .container .row p {
+  .container .row div {
+    margin-top: 5px;
+  }
+  .container .row div .info .description {
+    display: none;
+  }
+  .container .row div .more-btn {
     display: none;
   }
 }
