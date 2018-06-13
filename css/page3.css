@@ -20,6 +20,9 @@ body{
 .navbar .navbar-nav .nav-item .nav-link {
     color: white;
 }
+.container{
+    margin-top:50px;
+}
 .container .main-content{
     background-color: black;
     padding: 50px;
@@ -36,4 +39,18 @@ h4, h5, .subtitle{
 }
 .map{
     border-radius: 5%;
+}
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .container .main-content{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        padding: 0;
+    }
 }
