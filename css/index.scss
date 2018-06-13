@@ -1,0 +1,92 @@
+$navcolor: white;
+$navheight: 50px;
+
+body{
+    background-color: #fddfb1;
+}
+.navbar{
+    border: solid orange 1px;
+    min-height: $navheight;
+    .navbar-brand{
+        margin-left: 15%;
+        color: $navcolor;
+    }
+    .navbar-nav{
+        margin-right: auto;
+        margin-left: 10%;
+        .nav-item{
+            margin: 0 30px;
+            .nav-link{
+                color: $navcolor;
+            }
+        }
+    }
+}
+.container{
+    margin-bottom: 40px;
+    margin-top: $navheight;
+    .banner{
+        background: #ffd900;
+    }
+    .video{
+        width: 75%;
+        height: 450px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 12.5%;
+    }
+    .row{
+        div{
+            margin-top: 20px;
+            .inner1, .inner3{
+                background-color: #FFE89A;
+            }
+            .inner2, .inner4{
+                background-color: #FFF8E0;
+            }
+            .info{
+                height: 550px;
+                img{
+                    width: 100%;
+                }
+                .description{
+                    padding: 0 10px;
+                }
+            }
+            .btn{
+                background-color: #f0ad4e;
+                margin: 5px 5%;
+                width: 90%;
+                border: solid orange 1px;
+                color: white;
+            }   
+        }
+    }
+    h2, h3{
+        color: #fcbd5b
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        .video{
+            height: 300px;
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        .video{
+            height: 200px;
+        }
+        .row{
+            h2, h3, p{
+                display: none;
+            }
+        }
+    }
+}
