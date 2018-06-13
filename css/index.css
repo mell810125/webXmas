@@ -75,6 +75,8 @@ body {
     width: 100%;
   }
   .container .row div .info {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
   }
 }
