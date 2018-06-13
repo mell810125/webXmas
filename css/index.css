@@ -1,5 +1,6 @@
 body {
   background-color: #fddfb1;
+  font-family: Microsoft JhengHei;
 }
 
 .navbar {
@@ -35,17 +36,17 @@ body {
   margin-bottom: 15px;
   margin-left: 12.5%;
 }
+.container .row div:nth-child(even) .inner {
+  background-color: #FFE89A;
+}
+.container .row div:nth-child(odd) .inner {
+  background-color: #FFF8E0;
+}
 .container .row div {
   margin-top: 20px;
 }
-.container .row div .inner1, .container .row div .inner3 {
-  background-color: #FFE89A;
-}
-.container .row div .inner2, .container .row div .inner4 {
-  background-color: #FFF8E0;
-}
 .container .row div .info {
-  height: 550px;
+  height: 650px;
 }
 .container .row div .info img {
   width: 100%;
@@ -60,7 +61,7 @@ body {
   border: solid orange 1px;
   color: white;
 }
-.container h2, .container h3 {
+.container h4, .container h5, .container h6 {
   color: #fcbd5b;
 }
 

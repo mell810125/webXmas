@@ -3,6 +3,7 @@ $navheight: 50px;
 
 body{
     background-color: #fddfb1;
+    font-family: Microsoft JhengHei;
 }
 .navbar{
     border: solid orange 1px;
@@ -36,16 +37,20 @@ body{
         margin-left: 12.5%;
     }
     .row{
-        div{
-            margin-top: 20px;
-            .inner1, .inner3{
+        div:nth-child(even){
+            .inner{
                 background-color: #FFE89A;
             }
-            .inner2, .inner4{
+        }
+        div:nth-child(odd){
+            .inner{
                 background-color: #FFF8E0;
             }
+        }
+        div{
+            margin-top: 20px;
             .info{
-                height: 550px;
+                height: 650px;
                 img{
                     width: 100%;
                 }
@@ -62,7 +67,7 @@ body{
             }   
         }
     }
-    h2, h3{
+    h4, h5, h6{
         color: #fcbd5b
     }
 }

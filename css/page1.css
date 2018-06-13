@@ -1,0 +1,39 @@
+body{
+    background-color: #fddfb1;
+    font-family: Microsoft JhengHei;
+}
+.navbar {
+    border: solid orange 1px;
+    min-height: 50px;
+}
+.navbar .navbar-brand {
+    margin-left: 15%;
+    color: white;
+}
+.navbar .navbar-nav {
+    margin-right: auto;
+    margin-left: 10%;
+}
+.navbar .navbar-nav .nav-item {
+    margin: 0 30px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.container .main-content{
+    background-color: white;
+    padding: 50px;
+}
+.container .img{
+    width: 100%
+}
+h4, h5, .subtitle{
+    color: #fcbd5b
+}
+.content{
+    font-size: 15px;
+}
+.map{
+    background-color: #ffd900;
+    border-radius: 5%;
+}
